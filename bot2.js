@@ -3,7 +3,7 @@ const { exec } = require('child_process');
 const fs = require('fs');
 
 // Replace 'YOUR_TELEGRAM_BOT_TOKEN' with your bot token from BotFather
-const token = '6388812461:AAHcYXz2RT6RAsHop-ewlZczs86DVfQAj9g';
+const token = 'bot token here';
 const bot = new TelegramBot(token, { polling: true });
 
 let scanRunning = false;
